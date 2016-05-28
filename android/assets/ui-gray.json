@@ -1,5 +1,5 @@
 {
-com.badlogic.gdx.graphics.g2d.BitmapFont: { default-font: { file: default.fnt } },
+com.badlogic.gdx.graphics.g2d.BitmapFont: { default-font: { file: Font/default.fnt } , small-font: { file: Font/small.fnt } },
 com.badlogic.gdx.graphics.Color: {
 	green: { a: 1, b: 0, g: 1, r: 0 },
 	white: { a: 1, b: 1, g: 1, r: 1 },
@@ -11,7 +11,7 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
 	toggle: { down: button_01, checked: button_02, up: button_03 }
 },
 com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
-	default: { selection: icon_circle, background: textbox_02, font: default-font, fontColor: black, cursor: textbox_cursor_02 }
+	default: { selection: icon_circle, background: textbox_02, font: small-font, fontColor: black, cursor: textbox_cursor_02 }
 },
 com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
 	default: { vScroll: scroll_back_ver, hScrollKnob: knob_01, background: window_01, hScroll: scroll_back_hor, vScrollKnob: scroll_back_ver }
@@ -24,10 +24,12 @@ com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
 	}
 },
 com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
-	default: { font: default-font, fontColor: white }
+	default: { font: default-font, fontColor: white },
+	small: { font: small-font, fontColor: white }
 },
 com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
 	default: { down: button_01, up: button_02, font: default-font, fontColor: white },
+	small: { down: button_01, up: button_02, font: small-font, fontColor: white},
 	toggle: { down: button_01, up: button_03, checked: button_02, font: default-font, fontColor: white, downFontColor: red }
 },
 }

@@ -30,6 +30,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	
 	@Override
 	public void create () {
+		/*
 		stage = new Stage(new FitViewport(1600,900));
 		stage.addListener(new ClickListener(){
 			@Override
@@ -108,7 +109,8 @@ public class MyGdxGame extends ApplicationAdapter {
 			    	   }
 			       }
 			 });
-		}
+			
+		}*/
 	}
 
 	@Override
@@ -117,7 +119,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		stage.draw();
 	}
-	
+	/*
 	public void createPoint(final Coordinates cord)
 	{
 		Gdx.app.postRunnable(new Runnable() {
@@ -128,7 +130,7 @@ public class MyGdxGame extends ApplicationAdapter {
 			}
 		});
 	}
-	
+	*/
 	@Override
 	public void resize(int width, int height) {
 		stage.getViewport().update(width, height, true);
