@@ -13,6 +13,6 @@ public class AndroidLauncher extends AndroidApplication {
 		config.useAccelerometer = false;
 		config.useCompass = false;
 		config.useGyroscope = false;
-		initialize(new MyGdxGame(true), config);
+		initialize(new MainMenu(), config);
 	}
 }

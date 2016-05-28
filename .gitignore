@@ -4,6 +4,7 @@
 *.war
 *.ear
 hs_err_pid*
+.properties
 
 ## GWT
 war/
@@ -31,6 +32,8 @@ com_crashlytics_export_strings.xml
 
 ## Eclipse
 .metadata
+.classpath
+.project
 tmp/
 *.tmp
 *.bak
