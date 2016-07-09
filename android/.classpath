@@ -4,9 +4,9 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="src" path="/Network-core"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/kamil/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.2/342b830bc718dc1965c8f13fc58dc500e8bd262f/gdx-backend-android-1.9.2.jar" sourcepath="C:/Users/kamil/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.2/9e4b5d156bcce8fa0aff46c5edf017b605e7bdba/gdx-backend-android-1.9.2-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/kamil/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.2/e641cb91bec06bc64d9ddf7a7d7062caceec73cd/gdx-1.9.2.jar" sourcepath="C:/Users/kamil/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.2/b6c7422c6740f86a9a84fdcbc4c62a1f46db317d/gdx-1.9.2-sources.jar"/>
-	<classpathentry exported="true" kind="src" path="/Network-core"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry exported="true" kind="lib" path="/Network-core/lib/asm-4.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="/Network-core/lib/jsonbeans-0.5.jar"/>

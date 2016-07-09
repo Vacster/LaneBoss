@@ -1,22 +1,27 @@
 package com.mygdx.game;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
 public class MainMenuStage extends Stage{
 
-	private Label label;
-	private TextButton server, client;
 	
 	public MainMenuStage(final MainMenu main, final Skin skin) {
-		super(new FitViewport(1360, 720));
-		
-		label = new Label("LANE BOSS", skin);
+		super(new ExtendViewport(1360, 720));
+		Gdx.input.setInputProcessor(this);
+
+		Label label;
+		TextButton server;
+		TextButton client;
+		label = new Label("PIXEL WAR", skin);
 		server = new TextButton("SERVER", skin, "small");
 		client = new TextButton("CLIENT", skin, "small");
 		
